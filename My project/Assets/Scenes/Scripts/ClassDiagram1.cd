@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CameraController">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Entity">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\Entity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FlyingFace">
+    <Position X="4" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\FlyingFace.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hero">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAggAAAAkAAAAAABAABIEAQAKQQACBAAEAEM=</HashCode>
+      <FileName>Assets\Scenes\Scripts\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ladder">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAABAIAAAAAAAAAAAAEAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Assets\Scenes\Scripts\Ladder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Obstacle">
+    <Position X="9" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\Obstacle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalkingMonster">
+    <Position X="1.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAAKAAAAAAAAAAAAAAABIAAAAAAAAgAAAAAEA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\WalkingMonster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Worm">
+    <Position X="6.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\Worm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="States">
+    <Position X="9" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scenes\Scripts\Hero.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
