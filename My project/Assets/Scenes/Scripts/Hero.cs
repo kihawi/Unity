@@ -11,11 +11,14 @@ public class Hero : MonoBehaviour
     [SerializeField] private float jumpforce = 15f;
     [SerializeField] private int lives;
     [SerializeField] private float startingHealth;
-    [SerializeField] private float deathHeight = -5f;
+    [SerializeField] private float deathHeight = -20f;
     private Vector2 startPosition;
     private float lastDamageTime;
     public float restartDelay = 5f; // время задержки перед перезапуском сцены
     
+
+
+
 
     private bool isGrounded = false;
     private Rigidbody2D rb;
@@ -126,12 +129,23 @@ public class Hero : MonoBehaviour
         {
             startPosition = transform.position; // обновляем позицию начала падения
         }
+
+        
     }
 
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.CompareTag("EndLevel") )
+        {
+            // Переносим игрока на следующий уровень
+            SceneManager.LoadScene("SampleScene2");
 
+            
 
-
+        }
+        
+    }
 }
 
 public enum States

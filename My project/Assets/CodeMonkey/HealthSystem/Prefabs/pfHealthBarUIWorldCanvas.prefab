@@ -46,7 +46,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6848739073341297851}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!114 &6848739073341297854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d7912dc3ce1cccc4a9e9bf3bdc8f0b0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  getHealthSystemGameObject: {fileID: 0}
+  getHealthSystemGameObject: {fileID: 6848739073536652050}
   image: {fileID: 6848739073536652053}
 --- !u!1 &6848739073536652050
 GameObject:
@@ -191,7 +191,7 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6848739073536652050}
-  m_CullTransparentMesh: 0
+  m_CullTransparentMesh: 1
 --- !u!114 &6848739073536652053
 MonoBehaviour:
   m_ObjectHideFlags: 0

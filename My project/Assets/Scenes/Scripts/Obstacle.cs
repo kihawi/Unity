@@ -12,6 +12,7 @@ public class Obstacle : MonoBehaviour
             ContactPoint2D contact = collision.contacts[0];
             Vector2 normal = contact.normal;
 
+
             // ѕровер€ем, €вл€етс€ ли столкновение с верхней стороны
             if (Vector2.Dot(normal, Vector2.down) > 0.7f)
             {
