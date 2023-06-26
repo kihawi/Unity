@@ -139,7 +139,7 @@ public class Hero : MonoBehaviour
         if (other.CompareTag("EndLevel") )
         {
             // Переносим игрока на следующий уровень
-            SceneManager.LoadScene("SampleScene2");
+            SceneManager.LoadScene("SampleScene 2");
 
             
 

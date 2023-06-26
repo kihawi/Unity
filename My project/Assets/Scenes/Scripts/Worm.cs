@@ -7,7 +7,7 @@ public class Worm : Entity
 {
     [SerializeField] private int lives;
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
@@ -21,22 +21,27 @@ public class Worm : Entity
 
 
             }
-
-            else
-            {
-                lives--;
-                Debug.Log("у червяка" + lives);
-            }
-        }
-
-
-
-        if (lives < 1)
-
-            Die();
-            
+        }         
     }
 
-    
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            ContactPoint2D contact = collision.contacts[0];
+            Vector2 normal = contact.normal;
+
+            // Проверяем, является ли столкновение с низом коллайдера игрока
+            if (normal.y < 0.7f)
+            {
+                lives--;
+            }
+
+            if (lives < 0)
+                Die();
+        }
+    }
+
 }
     
